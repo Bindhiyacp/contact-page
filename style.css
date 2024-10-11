@@ -1,0 +1,68 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.in{
+    
+    margin-left: 150px;
+    margin-right: 100px;
+    height: 360px;
+}
+.in form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.mybox{
+    background-color: rgb(26, 86, 66);
+    border: 2px solid black;
+    height: 400px;
+    
+}
+.box{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    height: 360px;
+    
+}
+.icon {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* border-right: 3px solid black ; */
+    
+}
+.line{
+    margin-top: 45px;
+    height: 250px;
+    border-right: 3px solid black ;
+}
+#i{
+    color: rgb(27, 114, 114);
+}
+button{
+    background-color: rgb(29, 78, 78);
+    width: 100px;
+    border: 2px solid rgb(9, 47, 53);
+    color: aliceblue;
+}
+.in input,textarea{
+    border: 0cap;
+    background-color: rgb(226, 212, 212);
+    display: flex;
+    margin: 5px;
+    padding-top: 10px;
+}
